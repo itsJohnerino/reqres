@@ -1,0 +1,27 @@
+{
+    "name": "john/reqres",
+    "description": "Composer package that provides the reqres api.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "John\\Reqres\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "John Oldfield"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.34"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
